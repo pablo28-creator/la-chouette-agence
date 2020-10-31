@@ -5,7 +5,7 @@ AddType application/x-font-ttf .ttf
 AddType application/x-font-opentype .otf
 AddType application/x-font-woff .woff
 AddType image/svg+xml .svg
-ExpiresByType application/vnd.ms-fontobject "access 1 year"
+ExpiresByType https://pablo28-creator.github.io/la-chouette-agence/css/bootstrap.css  "access 1 year"
 ExpiresByType application/x-font-ttf "access 1 year"
 ExpiresByType application/x-font-opentype "access 1 year"
 ExpiresByType application/x-font-woff "access 1 year"
