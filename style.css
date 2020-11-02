@@ -11,13 +11,18 @@ a,
 button {
     transition: all .3s ease-in-out;
     outline: none!important;
-}
-
-a:hover {
     text-decoration: none;
+}
+.fa:hover{
+    color: #FFFFFF;
+}
+a:hover {
+    text-decoration: underline;
     cursor: pointer;
 }
-
+.navbar-brand:hover{
+    cursor: default;
+}
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -26,7 +31,14 @@ a:hover {
     z-index: 100000;
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
-
+.citation{
+    font-size: 20px;
+    font-style: italic;
+}
+.citation span{
+    font-size: 17px;
+    font-style: normal;
+}
 .bloc {
     width: 100%;
     clear: both;
@@ -38,7 +50,9 @@ a:hover {
     background-size: cover;
     position: relative;
 }
-
+li:hover{
+    text-decoration: underline;
+}
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
@@ -89,7 +103,9 @@ a:hover {
     left: 0;
     right: 0;
 }
-
+.scrollToTop:focus{
+    color: #364577;
+}
 .texture-paper::before {
     background: url("img/texture-paper.png");
     background-size: 280px 280px;
@@ -98,172 +114,6 @@ a:hover {
 .b-parallax {
     background-attachment: fixed;
 }
-
-.d-bloc {
-    color: rgba(255, 255, 255, .7);
-}
-
-.d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .icon-round,
-.d-bloc .icon-square,
-.d-bloc .icon-rounded,
-.d-bloc .icon-semi-rounded-a,
-.d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
-}
-
-.d-bloc .divider-h span {
-    border-color: rgba(255, 255, 255, .2);
-}
-
-.d-bloc .a-btn,
-.d-bloc .navbar a,
-.d-bloc .navbar-brand,
-.d-bloc a .icon-sm,
-.d-bloc a .icon-md,
-.d-bloc a .icon-lg,
-.d-bloc a .icon-xl,
-.d-bloc h1 a,
-.d-bloc h2 a,
-.d-bloc h3 a,
-.d-bloc h4 a,
-.d-bloc h5 a,
-.d-bloc h6 a,
-.d-bloc p a {
-    color: rgba(255, 255, 255, .6);
-}
-
-.d-bloc .a-btn:hover,
-.d-bloc .navbar a:hover,
-.d-bloc .navbar-brand:hover,
-.d-bloc a:hover .icon-sm,
-.d-bloc a:hover .icon-md,
-.d-bloc a:hover .icon-lg,
-.d-bloc a:hover .icon-xl,
-.d-bloc h1 a:hover,
-.d-bloc h2 a:hover,
-.d-bloc h3 a:hover,
-.d-bloc h4 a:hover,
-.d-bloc h5 a:hover,
-.d-bloc h6 a:hover,
-.d-bloc p a:hover {
-    color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .navbar-toggle .icon-bar {
-    background: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .btn-wire,
-.d-bloc .btn-wire:hover {
-    color: rgba(255, 255, 255, 1);
-    border-color: rgba(255, 255, 255, 1);
-}
-
-.d-bloc .panel {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel icon {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
-
-.d-bloc .panel,
-.l-bloc {
-    color: rgba(0, 0, 0, .5);
-}
-
-.d-bloc .panel button:hover,
-.l-bloc button:hover {
-    color: rgba(0, 0, 0, .7);
-}
-
-.l-bloc .icon-round,
-.l-bloc .icon-square,
-.l-bloc .icon-rounded,
-.l-bloc .icon-semi-rounded-a,
-.l-bloc .icon-semi-rounded-b {
-    border-color: rgba(0, 0, 0, .7);
-}
-
-.d-bloc .panel .divider-h span,
-.l-bloc .divider-h span {
-    border-color: rgba(0, 0, 0, .1);
-}
-
-.d-bloc .panel .a-btn,
-.l-bloc .a-btn,
-.l-bloc .navbar a,
-.l-bloc .navbar-brand,
-.l-bloc a .icon-sm,
-.l-bloc a .icon-md,
-.l-bloc a .icon-lg,
-.l-bloc a .icon-xl,
-.l-bloc h1 a,
-.l-bloc h2 a,
-.l-bloc h3 a,
-.l-bloc h4 a,
-.l-bloc h5 a,
-.l-bloc h6 a,
-.l-bloc p a {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .a-btn:hover,
-.l-bloc .a-btn:hover,
-.l-bloc .navbar a:hover,
-.l-bloc .navbar-brand:hover,
-.l-bloc a:hover .icon-sm,
-.l-bloc a:hover .icon-md,
-.l-bloc a:hover .icon-lg,
-.l-bloc a:hover .icon-xl,
-.l-bloc h1 a:hover,
-.l-bloc h2 a:hover,
-.l-bloc h3 a:hover,
-.l-bloc h4 a:hover,
-.l-bloc h5 a:hover,
-.l-bloc h6 a:hover,
-.l-bloc p a:hover {
-    color: rgba(0, 0, 0, 1);
-}
-
-.l-bloc .navbar-toggle .icon-bar {
-    color: rgba(0, 0, 0, .6);
-}
-
-.d-bloc .panel .btn-wire,
-.d-bloc .panel .btn-wire:hover,
-.l-bloc .btn-wire,
-.l-bloc .btn-wire:hover {
-    color: rgba(0, 0, 0, .7);
-    border-color: rgba(0, 0, 0, .3);
-}
-
 .voffset {
     margin-top: 30px;
 }
@@ -516,7 +366,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -635,7 +485,7 @@ a[data-lightbox]:hover img {
 
 .snapshot-lb .lightbox-caption {
     padding: 0;
-    color: rgba(0, 0, 0, .5);
+    color: #000000;
     background: none;
 }
 
@@ -643,15 +493,13 @@ h1,
 h2,
 h3,
 h4,
-h5,
-h6,
 p,
 label,
 .btn,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #000000;
 }
 
 .container {
@@ -677,7 +525,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 14px;
 }
 
 .tight-width-whitespace {
@@ -686,13 +534,13 @@ p {
 }
 
 .h1 {
-    font-size: 20px;
+    font-size: 24px;
     font-family: "Open Sans";
 }
 
 .cta-hero {
     margin-top: 22px;
-    color: #FFFFFF!important;
+    color: #000000;
     text-transform: uppercase;
     padding: 12px 28px 12px 28px;
     font-size: 16px;
@@ -713,7 +561,6 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
 }
 
 .med-width-whitespace {
@@ -722,21 +569,13 @@ h3 {
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
-
-h4 {
-    color: #333333!important;
-}
-
 .icons {
     margin-bottom: 14px;
     margin-top: 24px;
 }
 
-.white {
-    color: #FFFFFF!important;
+.black {
+    color: #000000;
 }
 
 .portfolio-thumb {
@@ -753,7 +592,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(51, 49, 44, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -775,17 +614,17 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff;
 }
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #000000;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
-    color: #FFFFFF!important;
+    background: #000000;;
+    color: #ffffff;
 }
 
 .ltc-white {
@@ -824,6 +663,12 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.bmp");
 }
+.logo{
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}               
 
 @media (max-width: 1024px) {
     .bloc {
