@@ -639,13 +639,7 @@ h3 {
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
-}
-.logo{
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}               
+}             
 
 @media (max-width: 1024px) {
     .bloc {
